@@ -1,9 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite1" verbose="1">
-    <parameter name="url" value="https://www-test2.ralphlauren.com/ralphlauren"/>
+    <parameter name="url" value="https://staging.m.ralphlauren.com"/>
+    <parameter name="url1" value="https://www-test2.ralphlauren.com/ralphlauren"/>
     <parameter name="dbServer" value=""/>
     <parameter name="password" value=""/>
     <parameter name="dbName" value=""/>
+    <parameter name="Name" value="Touch test"></parameter>
     <test name="Regression1">
         <classes>
             <!-- Regression  add class with tests-->
